@@ -26,6 +26,8 @@ public class AngryProfessor {
 				System.out.println("YES");
                 //System.out.println("Valid students:"+validStudentsCounter);
                 //System.out.println("Threshold:"+threshold);
+				//1,2,9,1,5,2,6,9
+			//
 
 		}
 	}
