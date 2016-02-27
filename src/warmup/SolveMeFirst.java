@@ -1,10 +1,6 @@
 package warmup;
 
-import java.io.*;
-import java.util.*;
-import java.text.*;
-import java.math.*;
-import java.util.regex.*;
+import java.util.Scanner;
 
 public class SolveMeFirst {
 
@@ -22,5 +18,6 @@ public class SolveMeFirst {
 		int sum;
 		sum = solveMeFirst(a, b);
 		System.out.println(sum);
+		in.close();
 	}
 }
