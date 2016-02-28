@@ -2,6 +2,8 @@ package algorithms.implementation;
 
 import java.util.Scanner;
 
+import algorithms.common.Common;
+
 
 //Solution for https://www.hackerrank.com/challenges/find-digits
 
@@ -25,7 +27,8 @@ public class FindDigitsDivisible {
 
 	private static void calculateAndPrintDivisibility(int value) {
 
-		int digits[] = converDigitToArray(value);
+		// NEW: Created a common library to store frequently used methods
+		int digits[] = Common.converDigitToArray(value);
 		int divisible =0;
 		for(int digit : digits){
 			if (digit!=0&&value%digit==0)
@@ -34,18 +37,5 @@ public class FindDigitsDivisible {
 		}
 		System.out.println(divisible);
 
-	}
-
-	//TODO: Put this function to a common location and make as a library to do it
-	//TODO: Also add a function to print int array to this lib
-	private static int[] converDigitToArray(int value) {
-
-		int array[] = new int[10];
-		int i = 0;
-		while (value != 0) {
-			array[i++] = value % 10;
-			value = value / 10;
-		}
-		return array;
 	}
 }
