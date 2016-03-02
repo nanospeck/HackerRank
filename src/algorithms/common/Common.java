@@ -13,5 +13,9 @@ public class Common {
 		}
 		return array;
 	}
+	
+	public static boolean isWholeNumber(double d){
+		return d%1==0;
+	}
 
 }
