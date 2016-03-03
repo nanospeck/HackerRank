@@ -2,7 +2,7 @@ package algorithms.common;
 
 public class Common {
 	
-	//TODO: Put this function to a common location and make as a library to do it
+	/*To convert a given integer value to an array of integer value*/
 	public static int[] converDigitToArray(int value) {
 
 		int array[] = new int[10];
@@ -14,8 +14,13 @@ public class Common {
 		return array;
 	}
 	
+	/*Check if a given number is a whole number*/
 	public static boolean isWholeNumber(double d){
 		return d%1==0;
+	}
+	
+	public static String readString(Scanner input){
+		return input.nextLine();
 	}
 
 }
