@@ -1,8 +1,10 @@
 package algorithms.common;
 
+import java.util.Scanner;
+
 public class Common {
-	
-	/*To convert a given integer value to an array of integer value*/
+
+	/* To convert a given integer value to an array of integer value */
 	public static int[] converDigitToArray(int value) {
 
 		int array[] = new int[10];
@@ -13,14 +15,19 @@ public class Common {
 		}
 		return array;
 	}
-	
-	/*Check if a given number is a whole number*/
-	public static boolean isWholeNumber(double d){
-		return d%1==0;
+
+	/* Check if a given number is a whole number */
+	public static boolean isWholeNumber(double d) {
+		return d % 1 == 0;
 	}
-	
-	public static String readString(Scanner input){
+
+	public static String readString(Scanner input) {
 		return input.nextLine();
+	}
+
+	/* Convert a given character to integer value */
+	public static int convertCharacterToInteger(char c) {
+		return Character.getNumericValue(c);
 	}
 
 }
