@@ -1,8 +1,8 @@
-package algorithms.implementation;
+package solutions.implementation;
 
 import java.util.Scanner;
 
-import algorithms.common.Common;
+import solutions.common.Common;
 
 
 //Solution for https://www.hackerrank.com/challenges/find-digits

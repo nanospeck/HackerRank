@@ -1,4 +1,4 @@
-package algorithms.strings;
+package solutions.strings;
 
 import java.util.HashSet;
 import java.util.Scanner;
