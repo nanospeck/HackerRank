@@ -1,6 +1,8 @@
 
 # Data Structures
 
+<a href="queue.md"> Queue </a>
+
 ## Stack - First, Next
 
 ```java
