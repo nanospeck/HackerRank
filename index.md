@@ -1,9 +1,9 @@
 
-My Page
-Test
+#Data Structures
 
+##Stack - First, Next
 
-```javascript
+```java
 	public class Stack {
 
 	static class Node {
