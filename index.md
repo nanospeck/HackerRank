@@ -1,7 +1,7 @@
 
-#Data Structures
+# Data Structures
 
-##Stack - First, Next
+## Stack - First, Next
 
 ```java
 	public class Stack {
