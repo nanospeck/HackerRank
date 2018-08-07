@@ -1,10 +1,10 @@
-<!DOCTYPE html>
+
 My Page
 Test
 
 
 ```javascript
-	static class Node {
+	static class Node2 {
 		public int value;
 		public Node next;
 
