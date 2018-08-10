@@ -1,12 +1,6 @@
+package solutions.datastructures;
 
-# Data Structures
-
-<a href="pages/queue.md"> Queue </a>
-
-## Stack - First, Next
-
-```java
-	public class Stack {
+public class Stack {
 
 	static class Node {
 		public int value;
@@ -46,5 +40,3 @@
 	}
 
 }
-
-```
