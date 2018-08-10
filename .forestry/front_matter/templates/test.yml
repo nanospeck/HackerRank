@@ -7,3 +7,5 @@ fields:
   default: test
   name: test
   label: test
+pages:
+- _posts/test.md
