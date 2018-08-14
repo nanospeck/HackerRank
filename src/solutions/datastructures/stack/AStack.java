@@ -1,6 +1,8 @@
-package solutions.datastructures;
+package solutions.datastructures.stack;
 
-public class Stack {
+public class AStack {
+	
+	//KEY - NODE, NEXT, FIRST
 
 	static class Node {
 		public int value;
@@ -26,7 +28,7 @@ public class Stack {
 	
 	public static void main(String[] args) {
 
-		Stack stack = new Stack();
+		AStack stack = new AStack();
 		stack.push(new Node(4));
 		stack.push(new Node(6));
 		stack.push(new Node(8));
