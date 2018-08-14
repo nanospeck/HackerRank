@@ -1,0 +1,11 @@
+---
+label: test
+hide_body: false
+is_partial: false
+fields:
+- type: textarea
+  default: test
+  name: test
+  label: test
+pages:
+- _posts/2018-08-10-test.md
